@@ -14,7 +14,7 @@ class NavBar extends Component {
                 <div className='navbaritems'>
                     <li className='navbarlisting'> <Link to href='/' className='navbarlink'> Home</Link> </li>
                     <li className='navbarlisting'> <Link to href='#' className='navbarlink'> About</Link> </li>
-                    <li className='navbarlisting'> <Link to href='#' className='navbarlink'>Products</Link></li>
+                    <li className='navbarlisting'> <Link to href='#' className='navbarlink'>Team</Link></li>
                     <li className='navbarlisting'> <Link to href='#' className='navbarlink'> Contact</Link> </li>   
                 </div>
             </div>

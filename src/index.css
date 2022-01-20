@@ -1,12 +1,17 @@
 body {
   background-color: #E7F5F8;
+  background: url(https://i0.wp.com/post.healthline.com/wp-content/uploads/2021/02/964690-10-Best-Clean-Non-Toxic-Perfumes-of-2021-1296x728-Header-02adb9.jpg?w=1155&h=1528);
+
 }
 
 .navbarcontainer{
   display: flex;
   justify-content: space-between; 
-  background-color: #CEF3FB;
+  /* background-color: #CEF3FB; */
   max-width: 100%;
+}
+h3{
+  color: white;
 }
 
 .navbarlogo{
@@ -34,4 +39,58 @@ body {
 .navbarlink{
   text-decoration: none;
   color: black;
+}
+
+.navbarlink:hover{
+  color: aqua;
+}
+
+.containerdesc{
+  padding: 10px;
+  /* margin: 3rem; */
+  /* display: flex;
+  justify-content: right; */
+}
+
+h4{
+font-size: 1.7rem;
+}
+h4:hover{
+  color: white;
+}
+.rightcontent{
+display: flex;
+justify-content: right;
+margin: 1rem;
+padding: 10px;
+flex-direction: column;
+}
+
+.desc{
+  display: flex;
+  justify-content: right;
+}
+
+.sidebarlisting{
+justify-content: left;
+display: flex;
+flex-direction: column;
+
+
+}
+.sidebarlink{
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  color: whitesmoke;
+  size: 1rem;
+}
+
+.sidebarlink:hover{
+  color: black;
+}
+
+a{
+  font-size: 1.5rem;
+  font-family: Lato, Geneva, Tahoma, sans-serif;
 }
