@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
+
+
 import '../index.css'
 
 class NavBar extends Component {
@@ -18,6 +20,8 @@ class NavBar extends Component {
                     <li className='navbarlisting'> <Link to href='#' className='navbarlink'> Contact</Link> </li>   
                 </div>
             </div>
+
+            
         );
     }
 }

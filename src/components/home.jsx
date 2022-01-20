@@ -20,12 +20,6 @@ class Home extends Component{
                      
                        
                      </div>
-                
-                
-                  {/* left content */}
-                   {/* <div className='sidebarlinks'>
-                       
-                    </div> */}
                     
                 </div>
               

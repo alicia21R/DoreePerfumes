@@ -7,6 +7,7 @@ import NavBar from "./components/navbar";
 import Footer from "./components/footer"
 
 
+
 ReactDOM.render(
   <Router>
 
@@ -16,6 +17,7 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<Home/>}/>
     </Routes>
+    
     <Footer/>
   </Router>,
  

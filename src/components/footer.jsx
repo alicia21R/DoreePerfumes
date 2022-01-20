@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Socials from "./socialsites"
 class Footer extends Component {
     render() { 
         return (
@@ -9,7 +10,10 @@ class Footer extends Component {
 
 
             {/* left side */}
-            <div></div>
+            <div>
+                <Socials />
+                
+            </div>
 
 
             
